@@ -1,9 +1,10 @@
 import React from 'react';
+import Navbar from '../../components/Navbar/Navbar';
 
 const Home = () => {
     return (
-        <div>
-            <h1>Welcome to the home</h1>
+        <div className='container mx-auto'>
+            <Navbar></Navbar>
         </div>
     );
 };
