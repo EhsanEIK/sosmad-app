@@ -5,11 +5,15 @@ import { FaEllipsisH, FaRegCommentDots } from "react-icons/fa";
 
 const UserProfile = () => {
     return (
-        <section className='md:mx-auto mx-3'>
+        <section className='md:mx-auto mx-3 ml-4'>
             <div className="rounded-3xl shadow-md sm:w-96 bg-gray-700 text-white mt-10">
                 <div className="flex items-center justify-between p-3">
                     <div className="flex items-center space-x-2">
-                        <img src={men1} alt="" className="object-cover object-center w-8 h-8 rounded-full shadow-sm bg-gray-500 border-gray-300" />
+                        <div className="avatar">
+                            <div className="w-10 rounded-full ring ring-blue-600 ring-offset-base-100 ring-offset-2">
+                                <img src={men1} alt="" className="object-cover object-center w-8 h-8 rounded-full shadow-sm bg-gray-500 border-gray-300" />
+                            </div>
+                        </div>
                         <div className="-space-y-1">
                             <h2 className="text-sm font-semibold leading-none">Adison Mango</h2>
                             <span className="inline-block text-xs leading-none text-gray-400">10 mins ago</span>
