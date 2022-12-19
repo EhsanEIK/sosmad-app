@@ -1,7 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { FaBell } from "react-icons/fa";
-import { BeakerIcon } from '@heroicons/react/24/solid'
 
 const Navbar = () => {
     return (
